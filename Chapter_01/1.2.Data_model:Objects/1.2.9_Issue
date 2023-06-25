@@ -1,1 +1,9 @@
+# My solution:
 
+s = []
+for obj in objects: # доступная переменная objects
+
+    if obj not in s:
+        s.append(obj)
+        
+print(len(s))

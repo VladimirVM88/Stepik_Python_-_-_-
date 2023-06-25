@@ -1,1 +1,10 @@
+# My solution:
 
+n = int(input())
+a = 0
+d = 0
+while a < n:
+    s = int(input())
+    d += s
+    a += 1
+print(d)
